@@ -1,8 +1,8 @@
-# ATP-BRNet: A Binned Regression Network for Fine-Grained ATP Prediction from Organoid Brightfield Images
+# ORVI-HCR: A Binned Regression Network for Fine-Grained ATP Prediction from Organoid Brightfield Images
 
 ## 🧬 Overview
 
-**ATP-BRNet** is a deep learning framework designed to predict ATP levels from organoid brightfield microscopy images. It combines *interval classification* and *within-bin regression* in a two-phase training strategy to improve the accuracy and generalizability of ATP estimation, especially for challenging low-ATP and under-represented samples.
+**ORVI-HCR** is a deep learning framework designed to predict ATP levels from organoid brightfield microscopy images. It combines *interval classification* and *within-bin regression* in a two-phase training strategy to improve the accuracy and generalizability of ATP estimation, especially for challenging low-ATP and under-represented samples.
 
 This model outperforms standard CNN baselines and supports explainable predictions via class-aware attention and heatmap visualization.
 
@@ -11,7 +11,7 @@ This model outperforms standard CNN baselines and supports explainable predictio
 ## 📁 Project Structure
 
 ```
-ATP-BRNet/
+ORVI-HCR/
 │
 ├── data/
 │   ├── processed_image_atp_mapping.json     # Mapping from image paths to ATP values
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 ## 🚀 Quick Start
 
-### 1️⃣ Train ATP-BRNet
+### 1️⃣ Train ORVI-HCR
 
 **Phase 1: Classification training**
 
@@ -95,9 +95,9 @@ Reported metrics include:
 * Pair ACC (Pairwise Accuracy for ranking)
 * R² Score (Coefficient of Determination)
 
-## 📌 Model Design: ATP-BRNet
+## 📌 Model Design: ORVI-HCR
 
-ATP-BRNet includes:
+ORVI-HCR includes:
 
 1. **Feature Extractor**: Deep CNN with multi-scale filters
 2. **Attention Module**: Learns spatially focused representations
@@ -109,7 +109,7 @@ ATP-BRNet includes:
 
 ## 📖 Citation
 
-If you find **ATP-BRNet** useful in your research, please consider citing our work:
+If you find **ORVI-HCR** useful in your research, please consider citing our work:
 
 ```bibtex
 # Citation placeholder in future
