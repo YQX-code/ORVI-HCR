@@ -20,7 +20,7 @@ ORVI-HCR/
 ├── generate_heatmap/                        # Heatmap generation for models
 │
 ├── model/
-│   ├── ORVI-HCR.py                           # Main model architecture
+│   ├── ORVI-HCR.py                          # Main model architecture
 │   ├── Benchmarks.py                        # Benchmarks model architecture
 │   └── utils.py                             # Auxiliary functions
 │
